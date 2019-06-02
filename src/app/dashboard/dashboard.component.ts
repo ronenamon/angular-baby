@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent implements OnInit {
-
+  image = "/src/assets/img/angularjs-bg.png";
+  color ='red';
   constructor() { }
 
   ngOnInit() {
   }
-
+  change(){
+    this.color = this.color === 'red' ? 'green' : 'red';
+    this.-
+  }
 }
